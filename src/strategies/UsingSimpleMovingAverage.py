@@ -1,7 +1,6 @@
-from AbstractExchangeToSignal import AbstractExchangeToSignal
+import AbstractStrategy
 
-
-class SimpleMovingAverage(AbstractExchangeToSignal):
+class UsingSimpleMovingAverage(AbstractStrategy):
     """
     Use simple moving average to calculate signals and make decision
     to buy, sell or do nothing on stock market.

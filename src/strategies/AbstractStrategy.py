@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class AbstractExchangeToSignal(ABC):
+class AbstractStrategy(ABC):
     """
     Basic class to inherit in order to implement stock market algorithms
     and return signal.
